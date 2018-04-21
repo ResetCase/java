@@ -1,0 +1,13 @@
+public Coche(){
+	private int ruedas=4;
+	private int largo=2000;
+	private int ancho=300;
+	private int motor=1600;
+	private int peso=500;
+}
+
+public string dime_largo(){
+	return "El largo del coche es "+ largo;
+	
+	
+}

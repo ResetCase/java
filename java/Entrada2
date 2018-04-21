@@ -1,0 +1,6 @@
+import javax.swing.*;
+public class entrada2 {
+public static void main (String[] args) {
+
+String Nombre_Usuario= JOptionpane.show_InputDialog("Introduce tu nombre, por favor");
+
