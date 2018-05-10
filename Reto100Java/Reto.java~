@@ -1,0 +1,19 @@
+import java.util.Scanner; //Programa usa la clase Scanner
+
+public class Reto{
+public static void main (String args[])
+{
+Scanner entrada=new Scanner (System.in);
+int num1;
+int num2;
+int suma;
+System.out.print("Escriba el primer numero:  ");
+num1=entrada.nextInt();
+
+System.out.print("Ingrese el  segundo numeri");
+num2=entrada.nextInt();
+	suma=num1+num2;
+
+System.out.println("EL resultado de la suma "+ " ES: "+ suma);
+}
+}
